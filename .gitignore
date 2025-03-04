@@ -1,2 +1,25 @@
 myvenv
 __pycache__
+
+# Ignore virtual environment
+myvenv/
+venv/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore package manager files
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Ignore environment variables
+.env
+.venv
+.DS_Store
+
+# Ignore log and temp files
+*.log
+*.tmp
